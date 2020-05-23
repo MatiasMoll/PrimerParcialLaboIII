@@ -19,10 +19,10 @@
 #spinner{
     opacity:0.8;
     flex-wrap: wrap; 
-    position: fixed; 
-    top:10%;
+    position: relative; 
     text-align: center;
-    width: 100%;
+    align-items: center;
+    width: 75%;
     background-color: white;
     z-index: 100;
 }
