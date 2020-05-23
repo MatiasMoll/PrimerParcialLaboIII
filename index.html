@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="/JavaScript/funciones.js"></script>
+    <link type="text/css" href="./Css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <img src="./img/Spin-1s-200px.gif" id="spinner" hidden="true"/>
+    <div class="container" id="contenedor" hidden="true">       
+        <label>Nombre: </label>
+        <input type="Text" id="txtNombre"/><br>
+        <label>Cuatrimestre: </label>
+        <select name="cuatris" id="slcCuatri" disabled="true">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br>
+        <label>Turno</label>
+        <input type="radio" id="Mañana" name="Turnos" value="Mañana">
+        <label for="Mañana">Mañana</label>
+        <input type="radio" id="Noche" name="Turnos" value="Noche">
+        <label for="Noche">Noche</label><br>
+        <label>Fechad de Final</label>
+        <input type="date" id="dateFinal"><br>
+        <input type="button" id="btnModificar" value="Modificar"/>
+        <input type="button" id="btnCerrar" value="Cerrar"/>
+        <input type="button" id="btnEliminar" value="Eliminar"/>
+    </div>
+    <table id="tablaDatos" border="1">
+        <thead>
+            <tr id="cabeceraTabla">
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Cuatrimestre</th>
+                <th>Fecha de final</th>
+                <th>Turno</th>
+            </tr>
+        </thead>
+        <tbody id="cuerpo"> 
+
+        </tbody>
+    </table>
+</body>
+</html>

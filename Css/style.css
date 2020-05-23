@@ -1,0 +1,62 @@
+#contenedor{
+    position: fixed;
+    flex-wrap: wrap; 
+    padding-left: 10px;
+    background: lightblue;
+    width: 50%;
+    font-size: 15px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    top:25%;
+    left:25%; 
+    right:25%;    
+}
+
+#txtNombre,#mañana,#noche,#btnEliminar,#btnModificar,#btnCerrar,#dateFinal,#slcCuatri {
+    border-radius: 10px;
+    padding:2%;
+    margin: 2%;
+}
+#spinner{
+    opacity:0.8;
+    flex-wrap: wrap; 
+    position: fixed; 
+    top:10%;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+}
+#btnEliminar{
+    background-color: red;
+    color: white;
+}
+#btnModificar{
+    background-color: green;
+    color:white;
+}
+
+.error{
+    border-color:red;    
+}
+#cabeceraTabla{
+    background-color: lightcoral;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+#tablaDatos {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+   background-color: #dddddd;
+}
